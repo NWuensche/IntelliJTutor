@@ -163,3 +163,61 @@ solution could work.
 4. Repeat this for the second error as well
 5. Come back to this file
 6. Go to part 3
+
+---
+
+Part 3: Text Editing
+
+Now you are half way through the tutorial. Congratulations for this! After you
+learned in the first two parts how to move efficiently, now, we want to learn
+how to edit files.
+In this part, we will learn basic text editing shortcuts, that will work in this text file
+too. In the next part, we will learn shortcuts that will make our work with source code faster.
+
+Lesson 3.1: Cut/Paste Lines
+
+Most of you will know the basic copy/paste shortcuts Ctrl+X, Ctrl+C and Ctrl+V,
+which work with the text you selected. However, there is a little twist behind them
+in this IDE.
+If you haven't selected any text at all, these shortcuts work on the whole line.
+
+1. Jump to the first line marked with ->
+2. Bring the lines in the right order by using Ctrl+X and Ctrl+V
+3. When you're finished, jump to lesson 3.2
+
+-> This is the second line
+-> This is the forth line
+-> This is the first line
+-> This is the third line
+
+Lesson 3.2: Switching Neighbouring Lines
+
+So you learned how to cut and paste lines inside a file. However, if you want to
+switch neighbouring lines, you can do this without using two shortcuts,
+but just one.
+Use Ctrl+Shift+Up or Ctrl+Shift+Down to switch the current and the upper or lower line.
+
+1. Jump to the first line marked with ->
+2. Bring the lines in the right order by using Ctrl+Shift+Up/Down
+3. When you're finished, jump to lesson 3.3
+
+-> This is the second line
+-> This is the first line
+-> This is the forth line
+-> This is the third line
+
+Lesson 3.3: Start New Line
+
+Right now, you should be an expert on how to move lines inside a file.
+Next off, you will learn how to create a new line without messing
+up your current line.
+If you don't want to move your cursor to the end of to the line before doing a
+line break, press Shift+Enter anywhere inside the current line to create a new one below.
+
+1. Jump to the line marked with ->
+2. Move your cursor to the star inside this line
+3. Press Shift+Enter to create a new line
+4. Jump to part 4
+
+-> I need a new line * below this one
+Some other text

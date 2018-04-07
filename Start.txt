@@ -83,3 +83,83 @@ and enter the name of the file you want to jump to.
 
 1. In this project, there is a file called "OtherFile.txt". Open this file by pressing
 Ctrl+Shift+N and typing the name of the file. You can find the next lesson there.
+
+---
+
+Part 2: Code Movement
+
+Congratulations on finishing part 1. Now, you know how to move efficiently through files.
+However, there are a lot of shortcuts considering moving inside code, which we can't really
+use inside a plain text file.
+Therefore, you can find some Java classes inside the "src" folder. Don't worry, you don't have to
+know much Java to get through. You can adapt the things you learn here for your language too.
+
+Lesson 2.1: Movement between Classes
+
+Most often, you don't want to jump to a specific file, but to a specific class.
+The easiest way to do this is by using Ctrl+N.
+The dialog looks pretty much like the one for opening files. The only difference is that
+you have to search for a class name, not for a file name.
+
+1. Press Ctrl+N and search for the class "SecretClass"
+2. You will see that the class and file name differ
+3. Search for other classes as well, until you feel confident using the shortcut
+4. Come back here by pressing Ctrl+Tab
+5. Go to lesson 2.2
+
+Lesson 2.2: Movement between Methods.
+
+You spend a lot of time moving between methods. The most effective way to do this is by pressing
+Alt+Up or Alt+Down, which will move you one method up or down.
+
+1. Open the class "Methods" by using Ctrl+N
+2. Press Alt+Up/Down to move between the methods
+3. Do this until you feel confident using the new shortcut
+4. Come back here by pressing Ctrl+Tab
+5. Go to lesson 2.3
+
+Lesson 2.3: Movement to the Declaration
+
+Sometimes, you just want to know how the super class of your current class looks like. For this,
+you can use the shortcut Ctrl+B and jump to it.
+
+1. Open the file "Child.java"
+2. Move your cursor to the name of the super class (Parent)
+3. Press Ctrl+B to open the super class file
+4. Come back here by pressing Ctrl+Tab
+
+However, this shortcut is multifunctional. You can also use it to find the declaration
+of a method or variable.
+
+1. Open the file "Child2.java"
+2. Move your cursor to the name of the variable "ID" inside the method "lesson"
+3. Press Ctrl+B to find the base method
+4. Come back here by pressing Ctrl+Tab
+5. Go to lesson 2.4
+
+Lesson 2.4: Movement to the Implementation
+
+Now you know how to find the super class of a class. However, you might want
+to know how to go the other way around too.
+To find the classes that implement your current class, you can use Ctrl+Alt+B.
+
+1. Open the file "Parent.java"
+2. Move your cursor to the name of the class (Parent)
+3. Press Ctrl+Alt+B and select "Child2.java"
+4. Go to lesson 2.5
+
+Again, you can use this shortcut to find implementations of variables and methods.
+
+Lesson 2.5: Movement Between Errors
+
+If you have syntactic errors inside your code, it can become pretty nasty to find the wrong line,
+especially if the file is pretty big. To move your cursor to the line with the next error, just press
+F2. If you want to know how you can fix the error, just press Alt+Enter and the IDE will tell you which
+solution could work.
+
+1. Open the File "Error.java"
+2. Press F2 to jump to the first error
+3. Press Alt+Enter to make the method return void
+4. Repeat this for the second error as well
+5. Come back to this file
+6. Go to part 3

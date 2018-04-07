@@ -1,0 +1,19 @@
+Welcome to the IntelliJ Tutor
+
+IntelliJ is an awesome IDE, but very few people use all the shortcuts to become a much faster programmer.
+For most tasks, it is much faster to press a combination of keys rather than to move your fingers
+to your mouse or touchpad, clicking on the right button.
+For this reason, you can finish all tasks here without touching your pointing device once. It will feel
+awkward to do everything with your keyboard first, but after some time, you will get used to it.
+Don't feel bad if you use your mouse in the beginning, just go back to your keyboard and
+continue the training.
+In this tutorial, you will learn how to move inside and between files, and how to edit your files faster.
+
+It is not important if you use WebStorm, PyCharm or any other JetBrain IDE. The shortcuts I show
+work for all of them, so share this tutor with all of your friends!
+
+You will need about 15 minutes to complete this introduction, if you don't use any shortcuts
+right now. Of course, if you already know a lot of them right now, you won't need all of the time.
+
+This tutorial is meant to be done multiple times. You won't be an expert after finishing it for the first time,
+because repetition is key to using the shortcuts intuitively in your daily work.

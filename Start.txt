@@ -221,3 +221,68 @@ line break, press Shift+Enter anywhere inside the current line to create a new o
 
 -> I need a new line * below this one
 Some other text
+
+---
+
+Part 4: Code Editing
+
+In this part, you will learn how to edit your code files much faster than
+ever before. You will learn how to rearrange methods, rename objects inside your code
+and much, much more.
+
+Lesson 4.1: Rearrange Methods
+
+As we all learned in the wonderful book "Clean Code", it's very important to
+have a readable order of the methods inside a class.
+But most of the times, you will not think about this while you're writing your code.
+However, before committing your code in Git and showing it others,
+you can move your methods by pressing Ctrl+Shift+Up/Down.
+You already know this shortcut from switch neighbouring lines, but you can use it
+to rearrange methods inside a class, too.
+
+1. Go to the file "WrongOrder.java"
+2. Move the cursor to the beginning of a method.
+3. Press Ctrl+Shift+Up/Down to switch the method with a neighbour
+4. Do this until all methods are in the right order
+5. Come back to this file
+6. Jump to lesson 4.2
+
+Lesson 4.2: Split Line
+
+You might know that your lines shouldn't contain too much code on one line.
+In Java, the maximum length of a line should be 120 chars. This number could vary in your language,
+but you get the idea.
+But again, you don't really think about this while writing your code.
+However, before releasing your code, you should make sure, that this rule is met.
+If you want to split a long line, just press Ctrl+Enter to split it under your cursor,
+without moving the position of the cursor.
+
+1. Go to the file "LongString.java"
+2. Split the String and the method calls with Ctrl + Enter, so that no line is longer than 120 chars
+3. Jump to lesson 4.3
+
+Lesson 4.3: Renaming a Class
+
+Good names are very important if you want to create project that you can
+can come back to without rereading everything.
+If you have a better name for a class, method or variable on your mind, then rename it.
+You can do this without searching for every occurrence of the thing, which would be quite
+cumbersome.
+Just use Shift+F6 to rename one occurrence, and the IDE will rename every other one for you.
+
+1. Go to the file "BadNames.java"
+2. Move your cursor to the class variable "n"
+3. Press Shift+F6 and give the variable the name "name". If you're finished, press Enter
+4. Do the same for the other names as well
+5. Jump to lesson 4.4
+
+Lesson 4.4: Refactor a File
+
+There are many, many rules on how to indent your code. Luckily, your IDE can help you there too.
+If you want to refactor everything inside your file, so that all lines are indented with the right amount
+of spaces, all spaces between operators are met, and so on, just press Ctrl+Alt+L and the job will be done.
+
+1. Go to the file "Refactor.java"
+2. Press Ctrl+Alt+L to refactor the whole file
+3. If you want to see the refactoring again, press Ctrl+Z to undo it
+4. Jump to the summary

@@ -1,0 +1,9 @@
+Lesson 1.6: Movement Between Files (Opened)
+
+After opening this new file, you want to go back to the main tutor file. This file
+is already open, so you don't need to open it again.
+To cycle through all open files, press Ctrl+Tab, and hit it until the file you want
+to switch to is selected.
+
+1. Press Ctrl+Tab and select "Start.txt".
+2. Jump to part 2 in the main tutor file

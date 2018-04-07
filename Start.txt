@@ -286,3 +286,25 @@ of spaces, all spaces between operators are met, and so on, just press Ctrl+Alt+
 2. Press Ctrl+Alt+L to refactor the whole file
 3. If you want to see the refactoring again, press Ctrl+Z to undo it
 4. Jump to the summary
+
+---
+
+Summary - Where to go from here?
+
+At this point, you know the most common shortcuts in IntelliJ.
+When you use them in your daily work, you can save much time on these repetitive tasks.
+
+Of course, this tutorial is just the beginning. This tutorial is far from complete.
+There are many, many more shortcuts you can learn.
+If you do an action that you have to use your mouse for, just press Ctrl+Shift+A.
+This will open a search dialog which could help you finding a shortcut for this action,
+making you faster again. An overview of many more shortcuts can also be found here:
+https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf .
+
+However, you can even create your own shortcuts! If you want to learn more about this, you
+can read this website: https://www.jetbrains.com/help/idea/configuring-keyboard-and-mouse-shortcuts.html .
+Another topic I haven't mentioned here are live templates. These help you
+adding parametrised code snippets inside your code. If you want to learn more about them,
+start here: https://www.jetbrains.com/help/idea/using-live-templates.html .
+
+Thank you for using the IntelliJ Tutor and happy coding!
